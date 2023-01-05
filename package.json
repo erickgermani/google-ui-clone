@@ -3,13 +3,6 @@
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
-	"eslintIgnore": [
-		"**/*.scss",
-		"**/*.svg",
-		"**/node_modules/**",
-		"src/assets/**",
-		"vite.config.ts"
-	],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
@@ -34,10 +27,8 @@
 		"eslint-plugin-promise": "^6.1.1",
 		"eslint-plugin-react": "^7.31.11",
 		"husky": "^1.0.0-rc.13",
-		"node-sass": "^8.0.0",
 		"prettier": "^2.8.1",
 		"sass": "^1.57.1",
-		"sass-loader": "^13.2.0",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
 	},

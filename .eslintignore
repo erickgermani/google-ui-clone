@@ -1,0 +1,5 @@
+**/*.scss
+**/*.svg
+**/node_modules/**
+src/assets/**
+vite.config.ts
